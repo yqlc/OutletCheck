@@ -1,1 +1,4 @@
 # OutletCheck
+
+检查Storyboard或XIB文件中同一控件的outlet是否与类中属性存在多次引用，如果有可能会引发崩溃，该工具会遍历指定路径下所有Storyboard或XIB文件，列出可疑文件路径
+使用：outletcheck xxx/xxx/projectpath
